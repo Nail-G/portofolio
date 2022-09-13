@@ -262,3 +262,47 @@ text-skill{
     border: none;
     font-size: 12px;
 }
+
+.contact p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom:13px ;
+    line-height: 0px;
+}
+
+.garis{
+    width: 390px;
+    height: 5px;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+
+.contact button{
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    border: 1px solid white;
+}
+
+.contact p{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom:13px ;
+    line-height: 0px;
+}
+
+.garis{
+    width: 390px;
+    height: 5px;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+
+.contact button{
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+    border: 1px solid white;
+}
