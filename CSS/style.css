@@ -7,7 +7,7 @@ body{
 .container{
     width: 100%;
     height: 650px;
-    background-image: url(../Web-Portofolio/img/bg.png);
+    background-image: url(../img/bg.png);
     background-size: cover;
 }
 .navbar{
@@ -179,7 +179,7 @@ body{
     border: none;
 }
 
-text-skill{
+.text-skill{
     margin-left: 12%;
     margin-top: 50px;
     line-height: 0px;
@@ -305,4 +305,45 @@ text-skill{
     height: 30px;
     font-size: 11px;
     border: 1px solid white;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:0;
+}
+
+.footer p:nth-child(2){
+    width: 700px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.list-icon{
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.list-icon div{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
 }
